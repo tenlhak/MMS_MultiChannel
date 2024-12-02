@@ -66,3 +66,25 @@ pip install -r requirements.txt
 ```python
 data_dir = "path_to_your_data_directory"
 ```
+# Usage 
+Run the main script to train the model and evaluate its performance:
+```bash
+python main.py
+```
+This script will:
+
+* Load and preprocess the data
+* Split the data into training, validation, and test sets
+* Initialize and train the multi-channel 1D CNN model
+* Evaluate the model on the test set
+* Generate and save plots for loss, accuracy, and per-class predictions
+
+## Results
+Upon successful execution, the following outputs will be available:
+
+* **Model Checkpoint:** The best model saved as best_model_multichannel.pth
+* **Plots:** Saved in the plots/ directory
+  * loss_plot.png: Training and validation loss over epochs
+  * accuracy_plot.png: Training and validation accuracy over epochs
+  * per_class_predictions.png: Correct vs. incorrect predictions per class on the test set
+*Console Output: Displays training progress, validation metrics, and per-class analysis
