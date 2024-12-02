@@ -43,9 +43,16 @@ MMS_MultiChannel/
 * Matplotlib
 ## Installation
 1. **Clone the Repository**
-``` bash
+```bash
 git clone https://github.com/yourusername/MMS_MultiChannel.git
 cd MMS_MultiChannel
 ```
-3. **Set Up a Virtual Environment (Optional but Recommended)**
-4. **Install Dependencies**
+2. **Set Up a Virtual Environment (Optional but Recommended)**
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+3. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
