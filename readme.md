@@ -17,7 +17,8 @@ The model is trained on multi-channel signal data, leveraging convolutional laye
 * Visualization: Generates plots for loss, accuracy, and per-class prediction results.
 * Per-Class Analysis: Provides detailed performance metrics for each class.
 ## Project Structure 
-` MMS_MultiChannel/
+```
+MMS_MultiChannel/
 ├── data/                   
 ├── models/
 │   └── multichannel_cnn.py 
@@ -33,3 +34,4 @@ The model is trained on multi-channel signal data, leveraging convolutional laye
 ├── main.py                 
 ├── requirements.txt        
 └── README.md               
+```
