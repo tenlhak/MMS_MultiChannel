@@ -56,3 +56,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+## Data Preparation
+* Data Files: The project expects two NumPy array files:
+  * X_t.npy: Input data of shape (num_samples, channels, signal_length)
+  * y_t.npy: Labels corresponding to the input data
+* Data Directory: Place these files inside the data/ directory.
+*Update Data Path: If your data directory is different, update the data_dir variable in main.py:
+
+```python
+data_dir = "path_to_your_data_directory"
+```
