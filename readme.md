@@ -3,8 +3,9 @@ This repository contains code for training and evaluating a multi-channel 1D con
 
 ## Project Overview
 Mechanical fault classification of rotatory machines by vibration analysis is critical in various domains such as petrochemical, energy, automobile, and engineering. This project implements a multi-channel 1D CNN using PyTorch to classify time series vibration signals into four classes:
-- Normal
-- Misaligned
-- Imbalanced
-- Bearing Fault
+* Normal
+* Misaligned
+* Imbalanced
+* Bearing Fault
+
 The model is trained on multi-channel signal data, leveraging convolutional layers to capture temporal patterns and relationships across different channels.
