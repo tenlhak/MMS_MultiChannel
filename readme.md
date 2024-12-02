@@ -87,4 +87,5 @@ Upon successful execution, the following outputs will be available:
   * loss_plot.png: Training and validation loss over epochs
   * accuracy_plot.png: Training and validation accuracy over epochs
   * per_class_predictions.png: Correct vs. incorrect predictions per class on the test set
-*Console Output: Displays training progress, validation metrics, and per-class analysis
+
+* Console Output: Displays training progress, validation metrics, and per-class analysis
