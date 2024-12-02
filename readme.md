@@ -35,3 +35,17 @@ MMS_MultiChannel/
 ├── requirements.txt        
 └── README.md               
 ```
+## Getting Started
+* Prerequisites
+* Python 3.6+
+* PyTorch 1.7+
+* NumPy
+* Matplotlib
+## Installation
+1. **Clone the Repository**
+``` bash
+git clone https://github.com/yourusername/MMS_MultiChannel.git
+cd MMS_MultiChannel
+```
+3. **Set Up a Virtual Environment (Optional but Recommended)**
+4. **Install Dependencies**
