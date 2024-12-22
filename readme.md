@@ -89,3 +89,8 @@ Upon successful execution, the following outputs will be available:
   * per_class_predictions.png: Correct vs. incorrect predictions per class on the test set
 
 * Console Output: Displays training progress, validation metrics, and per-class analysis
+![ablation_importance](https://github.com/user-attachments/assets/bb003d59-e119-44aa-a56d-7f80661a50a5)
+![channel_contributions](https://github.com/user-attachments/assets/55c83ffd-32c9-44b6-9495-844bac59c8c8)
+![per_class_predictions](https://github.com/user-attachments/assets/23c21a39-48fc-4587-bc5b-e693cf47b722)
+
+
